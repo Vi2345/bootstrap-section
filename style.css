@@ -1,0 +1,27 @@
+.card{
+    border: none;
+    outline: none;
+}
+
+.card p{
+    color: gray;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
